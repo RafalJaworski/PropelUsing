@@ -28,8 +28,8 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ProductBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35494882" vertical-offset="224" max-vertical-offset="810">
-              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.5392491" vertical-offset="422" max-vertical-offset="1062">
+              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
               <folding>
                 <element signature="e#45#77#0#PHP" expanded="true" />
               </folding>
@@ -37,12 +37,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProductBundle/Model/Product.php">
+      <file leaf-file-name="BaseProductQuery.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProductBundle/Model/om/BaseProductQuery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="270">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-              <folding />
+            <state vertical-scroll-proportion="-2.5555556" vertical-offset="2667" max-vertical-offset="7038">
+              <caret line="162" column="29" selection-start-line="162" selection-start-column="29" selection-end-line="162" selection-end-column="29" />
+              <folding>
+                <marker date="1436821126849" expanded="true" signature="5672:5747" placeholder="SELECT `id`,..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -196,6 +198,58 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PropelUsage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PropelUsage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="om" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PropelUsage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PropelUsage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -385,14 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProductBundle/Model/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="270">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ProductBundle/Model/om/BaseProduct.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="44.0" vertical-offset="1296" max-vertical-offset="16902">
@@ -403,10 +449,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProductBundle/Model/ProductQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProductBundle/Model/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18430035" vertical-offset="0" max-vertical-offset="586">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProductBundle/Model/om/BaseProductQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5555556" vertical-offset="2667" max-vertical-offset="7038">
+          <caret line="162" column="29" selection-start-line="162" selection-start-column="29" selection-end-line="162" selection-end-column="29" />
+          <folding>
+            <marker date="1436821126849" expanded="true" signature="5672:5747" placeholder="SELECT `id`,..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ProductBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35494882" vertical-offset="224" max-vertical-offset="810">
-          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.5392491" vertical-offset="422" max-vertical-offset="1062">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
           <folding>
             <element signature="e#45#77#0#PHP" expanded="true" />
           </folding>

@@ -27,13 +27,27 @@ class DefaultController extends Controller
     public function addAction()
     {
         $product = new Product();
-        $product->setName('pilka');
-        $product->setPrice('19,99');
+        $product->setName('pilka3');
+        $product->setPrice('29,99');
         $product->setDescription('lalalala');
 
         $product->save();
 
         return new Response('Created product '.$product->getId());
 
+    }
+
+    /**
+     *
+     * @Route("/show", name="show_product")
+     */
+    public function showAction($id)
+    {
+        $product = ProductQuery::create()
+            ->findPk($id);
+
+        if (!$product) {
+            throw $this->createNotFoundException('No product found for id '.$id);
+        }
     }
 }
